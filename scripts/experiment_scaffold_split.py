@@ -115,7 +115,10 @@ def main() -> None:
     )
 
     model = RandomForestClassifier(
-        n_estimators=N_TREES, n_jobs=-1, random_state=SEED
+        n_estimators=N_TREES,
+        n_jobs=-1,
+        random_state=SEED,
+        class_weight="balanced",  # same configuration as scripts/train_model.py
     )
     model.fit(X[train_mask], y[train_mask])
     SCAFFOLD_MODEL.parent.mkdir(parents=True, exist_ok=True)

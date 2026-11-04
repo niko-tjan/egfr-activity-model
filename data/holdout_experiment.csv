@@ -1,6 +1,6 @@
 drug,chembl_id,p_active_before,p_active_after,closest_in_training,predicted_after,change
-Gefitinib,CHEMBL939,0.996,0.978,0.92,active,-0.018
-Erlotinib,CHEMBL553,1.0,0.996,0.98,active,-0.004
-Afatinib,CHEMBL1173655,0.998,0.994,1.0,active,-0.004
-Osimertinib,CHEMBL3353410,0.998,0.99,0.91,active,-0.008
+Gefitinib,CHEMBL939,0.982,0.96,0.92,active,-0.022
+Erlotinib,CHEMBL553,0.994,0.992,0.98,active,-0.002
+Afatinib,CHEMBL1173655,0.996,0.984,1.0,active,-0.012
+Osimertinib,CHEMBL3353410,0.992,0.982,0.91,active,-0.01
 Lapatinib,CHEMBL554,1.0,1.0,0.87,active,0.0

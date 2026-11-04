@@ -8,8 +8,10 @@ some active recall for inactive recall.
 Judged on the scaffold-split test set, the honest one: both models use
 the identical split saved by scripts/experiment_scaffold_split.py.
 
+Both models are trained here from the same scaffold split, so this script
+stands alone and does not depend on which setting the main pipeline uses.
+
 Reads   data/egfr_fingerprints.npz, data/egfr_scaffold_split.csv
-        models/experiments/scaffold_split.joblib   (unweighted, for "before")
 Writes  models/experiments/scaffold_balanced.joblib
         data/class_weight_comparison.csv
 
@@ -34,7 +36,6 @@ from sklearn.metrics import (
 ROOT = Path(__file__).resolve().parent.parent
 FINGERPRINTS = ROOT / "data" / "egfr_fingerprints.npz"
 SCAFFOLD_SPLIT = ROOT / "data" / "egfr_scaffold_split.csv"
-PLAIN_MODEL = ROOT / "models" / "experiments" / "scaffold_split.joblib"
 BALANCED_MODEL = ROOT / "models" / "experiments" / "scaffold_balanced.joblib"
 OUTPUT = ROOT / "data" / "class_weight_comparison.csv"
 
@@ -67,20 +68,18 @@ def main() -> None:
         f"({y[test_mask].mean():.1%} active)\n"
     )
 
-    balanced = RandomForestClassifier(
-        n_estimators=N_TREES,
-        n_jobs=-1,
-        random_state=SEED,
-        class_weight="balanced",
-    )
-    balanced.fit(X[train_mask], y[train_mask])
-    joblib.dump(balanced, BALANCED_MODEL, compress=3)
+    models = {}
+    for name, weight in (("unweighted (before)", None), ("balanced (after)", "balanced")):
+        model = RandomForestClassifier(
+            n_estimators=N_TREES,
+            n_jobs=-1,
+            random_state=SEED,
+            class_weight=weight,
+        )
+        model.fit(X[train_mask], y[train_mask])
+        models[name] = model
+    joblib.dump(models["balanced (after)"], BALANCED_MODEL, compress=3)
     print(f"Saved balanced model to {BALANCED_MODEL}\n")
-
-    models = {
-        "unweighted (before)": joblib.load(PLAIN_MODEL),
-        "balanced (after)": balanced,
-    }
     results = pd.DataFrame(
         {name: score(m, X[test_mask], y[test_mask]) for name, m in models.items()}
     ).T

@@ -69,7 +69,7 @@ def main() -> None:
     drugs = pd.read_csv(DRUGS)
     drugs = drugs[drugs["expected"] == "EGFR inhibitor"].reset_index(drop=True)
     held_out = set(drugs["chembl_id"])
-    print(f"Holding out {len(held_out)} EGFR drugs: {', '.join(drugs['drug'])}\n")
+    print(f"Holding out {len(held_out)} EGFR drugs: {', '.join(drugs['name'])}\n")
 
     assigned = ids.map(split).to_numpy()
     is_drug = ids.isin(held_out).to_numpy()
@@ -82,7 +82,10 @@ def main() -> None:
     )
 
     model = RandomForestClassifier(
-        n_estimators=N_TREES, n_jobs=-1, random_state=SEED
+        n_estimators=N_TREES,
+        n_jobs=-1,
+        random_state=SEED,
+        class_weight="balanced",  # same configuration as scripts/train_model.py
     )
     model.fit(X[train_mask], y[train_mask])
     EXPERIMENT_MODEL.parent.mkdir(parents=True, exist_ok=True)
@@ -107,7 +110,7 @@ def main() -> None:
         fingerprint = X[row_index].reshape(1, -1)
         rows.append(
             {
-                "drug": drug["drug"],
+                "drug": drug["name"],
                 "chembl_id": drug["chembl_id"],
                 "p_active_before": round(
                     float(main_model.predict_proba(fingerprint)[0, 1]), 3
