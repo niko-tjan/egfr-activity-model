@@ -1,0 +1,10 @@
+# Virtual environment (rebuild with: uv sync)
+.venv/
+
+# Python / Jupyter clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store

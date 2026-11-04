@@ -1,0 +1,18 @@
+[project]
+name = "egfr-activity-model"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "chembl-webresource-client>=0.10.9",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "rdkit>=2025.9.3",
+    "scikit-learn>=1.9.1",
+]
+
+[tool.uv]
+# This Mac is Intel (x86_64); newer rdkit releases ship no Intel-Mac wheels,
+# so make uv choose versions that install here.
+required-environments = ["sys_platform == 'darwin' and platform_machine == 'x86_64'"]
