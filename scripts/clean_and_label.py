@@ -18,22 +18,27 @@ RAW = DATA / "egfr_raw.csv"
 OUTPUT = DATA / "egfr_labelled.csv"
 
 ACTIVE_CUTOFF_NM = 1000  # IC50 below 1 µM counts as active
-MAX_PLAUSIBLE_LIMIT_NM = 1_000_000  # '>' values above 1 mM are likely entry errors
+# Values above 1 mM are treated as entry errors. Most are unit mix-ups, e.g. a
+# molecule listed at 5,220 nM and again at 5,220,000 nM. A few real but very
+# weak compounds are lost too; they would be inactive anyway.
+MAX_PLAUSIBLE_NM = 1_000_000
 
 
 def keep_trustworthy_rows(df: pd.DataFrame) -> pd.DataFrame:
-    """Keep exact values, plus '>' limits that prove inactivity and are plausible."""
-    exact = df["standard_relation"] == "="
-    greater = df["standard_relation"] == ">"
-    implausible = greater & (df["ic50_nM"] > MAX_PLAUSIBLE_LIMIT_NM)
+    """Keep exact values, plus '>' limits that prove inactivity; drop values > 1 mM."""
+    relation = df["standard_relation"]
+    implausible = df["ic50_nM"] > MAX_PLAUSIBLE_NM
+    exact = (relation == "=") & ~implausible
     clearly_inactive = (
-        greater & (df["ic50_nM"] >= ACTIVE_CUTOFF_NM) & ~implausible
+        (relation == ">") & (df["ic50_nM"] >= ACTIVE_CUTOFF_NM) & ~implausible
     )
     kept = df[exact | clearly_inactive]
+    dropped_exact = ((relation == "=") & implausible).sum()
+    dropped_greater = ((relation == ">") & implausible).sum()
     print(
         f"Step 1: kept {len(kept)} of {len(df)} measurements "
         f"({exact.sum()} exact, {clearly_inactive.sum()} '>' inactive limits; "
-        f"dropped {implausible.sum()} '>' values above 1 mM)"
+        f"dropped values above 1 mM: {dropped_exact} '=', {dropped_greater} '>')"
     )
     return kept
 

@@ -188,20 +188,20 @@ CHEMBL113356,Cn1c(=O)c(-c2c(Cl)cccc2Cl)cc2cnc(NCc3ccccc3)nc21,50000.0,1,lower_li
 CHEMBL113535,COc1cc2ncc(C#N)c(Nc3cccc(N=[N+]=[N-])c3)c2cc1OC,2187.76,1,exact,inactive
 CHEMBL113863,Cn1c(=O)c(-c2c(Cl)cccc2Cl)cc2cnc(NCCCCCC(=O)O)nc21,1000.0,1,exact,inactive
 CHEMBL113900,CC(C)N(CC#CC(=O)Nc1ccc2ncc(C#N)c(Nc3cccc(Br)c3)c2c1)C(C)C,250.0,3,exact,active
-CHEMBL113901,COc1cc2ncc(C#N)c(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/C(C)N(C)C,5234.035,4,exact,inactive
-CHEMBL113902,C/C=C/C(=O)Nc1cc2c(Nc3ccc(F)c(Cl)c3)c(C#N)cnc2cc1OCC,7542.889999999999,4,exact,inactive
-CHEMBL113985,COc1cc(NC(=O)/C=C/CN2CCOCC2)cc2c(Nc3cccc(Br)c3)c(C#N)cnc12,5390.0,4,exact,inactive
-CHEMBL113996,COc1cc2ncc(C#N)c(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN1CCOCC1,13585.0,4,exact,inactive
-CHEMBL114073,COc1cc2ncc(C#N)c(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/C(C)N1CCOCC1,10595.0,4,exact,inactive
-CHEMBL114392,C=C(CN1CCOCC1)C(=O)Nc1ccc2ncc(C#N)c(Nc3ccc(F)c(Cl)c3)c2c1,2700.0,5,exact,inactive
+CHEMBL113901,COc1cc2ncc(C#N)c(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/C(C)N(C)C,5220.0,3,exact,inactive
+CHEMBL113902,C/C=C/C(=O)Nc1cc2c(Nc3ccc(F)c(Cl)c3)c(C#N)cnc2cc1OCC,7500.0,3,exact,inactive
+CHEMBL113985,COc1cc(NC(=O)/C=C/CN2CCOCC2)cc2c(Nc3cccc(Br)c3)c(C#N)cnc12,5390.0,3,exact,inactive
+CHEMBL113996,COc1cc2ncc(C#N)c(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN1CCOCC1,13570.0,3,exact,inactive
+CHEMBL114073,COc1cc2ncc(C#N)c(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/C(C)N1CCOCC1,10590.0,3,exact,inactive
+CHEMBL114392,C=C(CN1CCOCC1)C(=O)Nc1ccc2ncc(C#N)c(Nc3ccc(F)c(Cl)c3)c2c1,2700.0,4,exact,inactive
 CHEMBL114446,COc1cc2ncc(C(N)=O)c(Nc3cccc(Br)c3)c2cc1OC,15135.61,1,exact,inactive
-CHEMBL114490,COc1cc2ncc(C#N)c(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN(C)C,2332.115,4,exact,inactive
+CHEMBL114490,COc1cc2ncc(C#N)c(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN(C)C,2320.0,3,exact,inactive
 CHEMBL114496,COc1cc2ncc(C#N)c(Nc3cccc(SC)c3)c2cc1OC,758.58,1,exact,active
 CHEMBL114550,COc1cc(N)c2oc(-c3cccc(N)c3)cc(=O)c2c1,100000.0,1,lower_limit,inactive
 CHEMBL114568,Nc1ccc(-c2cc(=O)c3ccc(O)c(N)c3o2)cc1,100000.0,1,lower_limit,inactive
 CHEMBL114578,Nc1ccc(-c2cc(=O)c3c(O)ccc(N)c3o2)cc1,100000.0,1,lower_limit,inactive
 CHEMBL114593,COCC#CC(=O)Nc1ccc2ncc(C#N)c(Nc3cccc(Br)c3)c2c1,960.0,5,exact,active
-CHEMBL114728,CCOc1cc2ncc(C#N)c(Nc3cccc(Br)c3)c2cc1NC(=O)/C=C/CN(C)C,1600.0,4,exact,inactive
+CHEMBL114728,CCOc1cc2ncc(C#N)c(Nc3cccc(Br)c3)c2cc1NC(=O)/C=C/CN(C)C,1600.0,3,exact,inactive
 CHEMBL114814,Nc1ccc(-c2cc(=O)c3c(N)c(O)c(N)cc3o2)cc1,100000.0,1,lower_limit,inactive
 CHEMBL115102,Nc1cccc(-c2cc(=O)c3cc(N)c(O)cc3o2)c1,100000.0,1,lower_limit,inactive
 CHEMBL115103,Nc1cccc(-c2cc(=O)c3cc(N)ccc3o2)c1,100000.0,1,lower_limit,inactive
@@ -213,7 +213,7 @@ CHEMBL115519,COc1cc(/C=C(\C#N)C(N)=O)cc(CSc2nc3cc(Cl)ccc3s2)c1O,4500.0,3,exact,i
 CHEMBL115601,Nc1ccc(-c2cc(=O)c3cc(N)c(O)c(N)c3o2)cc1,100000.0,1,lower_limit,inactive
 CHEMBL115745,COc1cc2ncnc(NCc3ccccc3)c2cc1O,56.0,1,exact,active
 CHEMBL115895,COc1cc(/C=C(\C#N)C(N)=O)cc(CSc2ccccc2NC(C)=O)c1O,15438.81,4,exact,inactive
-CHEMBL116012,CCOc1cc2ncc(C#N)c(Nc3cccc(Br)c3)c2cc1NC(=O)/C=C/CN1CCOCC1,10310.0,4,exact,inactive
+CHEMBL116012,CCOc1cc2ncc(C#N)c(Nc3cccc(Br)c3)c2cc1NC(=O)/C=C/CN1CCOCC1,10300.0,3,exact,inactive
 CHEMBL116051,Nc1ccc(-c2cc(=O)c3c(O)c(N)ccc3o2)cc1,100000.0,1,lower_limit,inactive
 CHEMBL1161234,COc1cc(/C=C(\C#N)C(N)=O)cc(SCCCC(=O)O)c1O,47863.01,1,exact,inactive
 CHEMBL1161236,COc1cc(C=C(C#N)C#N)cc(SCC(=O)O)c1O,53703.18,1,exact,inactive
@@ -225,7 +225,7 @@ CHEMBL116547,COc1cc(/C=C(\C#N)C(=O)c2ccc(O)c(O)c2)cc(CSCc2ccccc2)c1O,2000.0,3,ex
 CHEMBL116595,COc1cc(/C=C(\C#N)C(N)=O)cc(CSc2ccccc2)c1O,500.0,5,exact,active
 CHEMBL116748,O=[N+]([O-])c1ccc2c(NCc3ccccc3)ncnc2c1,5900.0,1,exact,inactive
 CHEMBL116853,COc1cc2ncc(C#N)c(Nc3cccc(Br)c3)c2cc1NC(=O)C#CCN(C)C,90.0,4,exact,active
-CHEMBL116857,COc1cc(NC(=O)/C=C/CN(C)C)cc2c(Nc3cccc(Br)c3)c(C#N)cnc12,2882.0150000000003,4,exact,inactive
+CHEMBL116857,COc1cc(NC(=O)/C=C/CN(C)C)cc2c(Nc3cccc(Br)c3)c(C#N)cnc12,2880.0,3,exact,inactive
 CHEMBL116919,COc1ccc(CNc2ncnc3ccccc23)cc1,10000.0,1,exact,inactive
 CHEMBL1169856,Cc1ccc(C2=NN(C(N)=S)C(c3ccccc3F)C2)cc1C,5190.0,1,exact,inactive
 CHEMBL1169870,NC(=S)N1N=C(c2ccc(Br)c(Br)c2)CC1c1ccc(Cl)cc1,8150.0,1,exact,inactive
@@ -309,7 +309,7 @@ CHEMBL117710,Brc1cccc(Oc2ncnc3ccccc23)c1,756.0,1,exact,active
 CHEMBL117711,c1cncc(Nc2ncnc3ccccc23)c1,1000.0,1,lower_limit,inactive
 CHEMBL117804,c1ccc(CCNc2ncnc3ccccc23)cc1,4100.0,1,exact,inactive
 CHEMBL117988,Nc1cccc2c(NCc3ccccc3)ncnc12,10000.0,1,lower_limit,inactive
-CHEMBL118000,N#Cc1cnc2ccc(NC(=O)/C=C/CN3CCOCC3)cc2c1Nc1ccc(F)c(Cl)c1,2290.0,5,exact,inactive
+CHEMBL118000,N#Cc1cnc2ccc(NC(=O)/C=C/CN3CCOCC3)cc2c1Nc1ccc(F)c(Cl)c1,2290.0,4,exact,inactive
 CHEMBL118109,COc1cc(/C=C(\C#N)C(N)=O)cc(CSc2nc3ccccc3s2)c1O,19027.305,4,exact,inactive
 CHEMBL118130,Oc1ccc(-c2[nH]nc3ncnc(Nc4cccc(Cl)c4)c23)cc1,253.0,2,exact,active
 CHEMBL118205,COc1cc(/C=C(\C#N)C(N)=O)cc(CSc2nc3ccccc3o2)c1O,5650.0,4,exact,inactive
@@ -354,7 +354,7 @@ CHEMBL1204261,CCOc1cc2ncnc(Nc3cccc(F)c3)c2cc1OCC.Cl,8.17,3,exact,active
 CHEMBL1204262,CCOc1cc2ncnc(Nc3cccc(I)c3)c2cc1OCC.Cl,4.6,3,exact,active
 CHEMBL1204305,COc1cc2ncnc(Nc3cccc(I)c3)c2cc1OC.Cl,6.4,3,exact,active
 CHEMBL1204360,COc1cc2ncnc(Nc3ccccc3F)c2cc1OC.Cl,32.2,3,exact,active
-CHEMBL120564,COc1cc(C=C(C#N)C#N)cc(C)c1O,87096.36,3,exact,inactive
+CHEMBL120564,COc1cc(C=C(C#N)C#N)cc(C)c1O,87048.18,2,exact,inactive
 CHEMBL120667,Cc1c(C)n(C)c2ncnc(Nc3cccc(Cl)c3)c12,450000.0,1,exact,inactive
 CHEMBL120703,CC(C)(C)OC(=O)Nc1ccc(Nc2[nH]nc3ncnc(Nc4cccc(Cl)c4)c23)cc1,55000.0,2,lower_limit,inactive
 CHEMBL120719,COc1cc(C=C(C#N)C#N)cc(CSCC(=O)O)c1O,75000.0,2,exact,inactive
@@ -807,7 +807,7 @@ CHEMBL1448,O=C(Nc1ccc([N+](=O)[O-])cc1Cl)c1cc(Cl)ccc1O,10500.0,1,exact,inactive
 CHEMBL144842,N#C/C(=C\c1ccc(O)c(O)c1)C(=O)NCCCCCNC(=O)/C(C#N)=C/c1ccc(O)c(O)c1,9000.0,3,exact,inactive
 CHEMBL144908,N#C/C(=C\c1ccc(O)c(O)c1)C(=O)NCCNC(=O)/C(C#N)=C/c1ccc(O)c(O)c1,10000.0,3,exact,inactive
 CHEMBL144921,COCOc1c(-c2ccccc2)cccc1-c1ccc(C(=O)OCC(C)CC(C)(C)C)cc1,10000.0,1,lower_limit,inactive
-CHEMBL145,O=C(O)/C=C/c1ccc(O)c(O)c1,1100000.0,2,exact,inactive
+CHEMBL145,O=C(O)/C=C/c1ccc(O)c(O)c1,1000000.0,1,exact,inactive
 CHEMBL145209,N#C/C(=C\c1ccc(O)c(O)c1)C(=O)NCN1CCN(C(=O)/C(C#N)=C/c2ccc(O)c(O)c2)CC1,5800.0,1,exact,inactive
 CHEMBL145266,COc1cc(/C=C(\C#N)C(=O)NCCCCNC(=O)/C(C#N)=C/c2cc(OC)c(O)c([N+](=O)[O-])c2)cc([N+](=O)[O-])c1O,65500.0,2,exact,inactive
 CHEMBL14627,O=C(NCCCCOc1ccc2ncnc(Nc3ccc(OCc4ccccc4)cc3)c2c1)C(F)(F)F,74.065,2,exact,active
@@ -2522,7 +2522,6 @@ CHEMBL258805,COc1ccc2c(c1)/C(=C/c1cnc[nH]1)C(=O)N2,10000.0,1,lower_limit,inactiv
 CHEMBL258940,CN1CCC(Nc2ncc3ncnc(Nc4ccc(F)c(Cl)c4)c3n2)CC1,3.0,3,exact,active
 CHEMBL26001,O=P(O)(O)C(O)c1ccc2ccccc2c1,225000.0,2,exact,inactive
 CHEMBL260861,COc1cc(Nc2nn3c(N[C@H](CO)Cc4ccccc4)cc(C4CC4)nc3c2C(N)=O)cc(OC)c1,2400.0,1,exact,inactive
-CHEMBL261238,CN(c1cccnc1)c1cc2c(Nc3ccc(F)c(Cl)c3)c(C#N)cnc2cn1,5000000.0,1,exact,inactive
 CHEMBL261592,Cc1cc2cc(Nc3ncnn4cc(-c5nnc(C)o5)c(C(C)C)c34)cnc2[nH]1,1000.0,1,lower_limit,inactive
 CHEMBL261720,Nc1nc(Nc2ccc(S(N)(=O)=O)cc2)nn1C(=S)Nc1c(F)cccc1F,10000.0,1,lower_limit,inactive
 CHEMBL261849,COc1ccc(COc2ccc(Cc3cnc(N)nc3N)cc2OC)cc1,24000.0,1,lower_limit,inactive
@@ -2655,7 +2654,6 @@ CHEMBL291979,Cn1c(SSc2c(C(=O)Nc3ccccc3)c3cc(C#N)ccc3n2C)c(C(=O)Nc2ccccc2)c2cc(C#
 CHEMBL291986,N#C/C(=C\c1ccc(O)c(O)c1)C(=O)N1CCN(c2ccccc2)CC1,29650.0,2,exact,inactive
 CHEMBL292287,Cc1cccc2c1c(C(=O)Nc1ccccc1)c(SSc1c(C(=O)Nc3ccccc3)c3c(C)cccc3n1C)n2C,100000.0,1,lower_limit,inactive
 CHEMBL292323,COc1cccc2c(C(=O)Nc3ccccc3)c(SSc3c(C(=O)Nc4ccccc4)c4cccc(OC)c4n3C)n(C)c12,6500.0,1,exact,inactive
-CHEMBL292648,N#CC(C#N)=C1CCCc2c(O)cccc21,1200000.0,1,exact,inactive
 CHEMBL293064,CCN(CC)CCOc1cc2c(Nc3ccc(F)c(Cl)c3)ncnc2cc1OC,93.0,1,exact,active
 CHEMBL293090,CNCCOc1cc2c(Nc3ccc(F)c(Cl)c3)ncnc2cc1OC,8.0,1,exact,active
 CHEMBL293250,Cn1c(SSc2c(C(=O)Nc3ccccc3)c3cc(O)ccc3n2C)c(C(=O)Nc2ccccc2)c2cc(O)ccc21,40500.0,1,exact,inactive
@@ -2671,11 +2669,10 @@ CHEMBL293986,Cn1c(SSc2c(C(=O)Nc3ccccc3)c3c(Cl)cccc3n2C)c(C(=O)Nc2ccccc2)c2c(Cl)c
 CHEMBL293991,NCCCn1ccc2c(-c3ccnc(Nc4cccc(OC(F)(F)C(F)F)c4)n3)cccc21,530.0,1,exact,active
 CHEMBL294034,COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCn1ccnc1,63.1,2,exact,active
 CHEMBL294205,COc1cccc2c1c(C(=O)Nc1ccccc1)c(SSc1c(C(=O)Nc3ccccc3)c3c(OC)cccc3n1C)n2C,100000.0,1,lower_limit,inactive
-CHEMBL294213,N#CC(C#N)=Cc1ccc2[nH]ccc2c1,2200000.0,1,exact,inactive
+CHEMBL294213,N#CC(C#N)=Cc1ccc2[nH]ccc2c1,100000.0,1,lower_limit,inactive
 CHEMBL294341,COc1ccc2c(c1)c(C(=O)Nc1ccccc1)c(SSc1c(C(=O)Nc3ccccc3)c3cc(OC)ccc3n1C)n2C,100000.0,1,lower_limit,inactive
 CHEMBL294395,COCCN(CCOC)CCOc1cc2c(Nc3ccc(F)c(Cl)c3)ncnc2cc1OC,61.0,1,exact,active
 CHEMBL294475,Brc1cccc(Nc2ncnc3cnc(NCCN4CCOCC4)nc23)c1,0.8128,3,exact,active
-CHEMBL294681,C[S+]([O-])c1ccc(C=C(C#N)C#N)cc1,1800000.0,1,exact,inactive
 CHEMBL294769,COc1cc2nc(C)nc(Nc3cccc(Br)c3)c2cc1OC,10000.0,1,lower_limit,inactive
 CHEMBL295939,NC(=O)c1cc2cc(O)c(O)cc2cn1,100000.0,1,lower_limit,inactive
 CHEMBL295961,CNc1ccc2cncnc2c1,4.0,1,exact,active
@@ -2689,7 +2686,6 @@ CHEMBL296582,O=C(NCc1ccccc1)c1cc2cc(O)c(O)cc2cn1,3100.0,1,exact,inactive
 CHEMBL297968,C=CC(=O)Nc1ccc2c(Nc3cccc(C)c3)ncnc2c1,45.8,2,exact,active
 CHEMBL298637,CNc1ccc2c(Nc3cccc(Br)c3)ncnc2n1,52.48,3,exact,active
 CHEMBL298679,COc1ccc(NC(=O)Nc2nc3nc(NCCCN4CCN(C)CC4)ncc3cc2-c2c(Cl)cccc2Cl)cc1,720.0,1,exact,active
-CHEMBL298810,N#CC(C#N)=Cc1cc[nH]n1,1480000.0,1,exact,inactive
 CHEMBL298931,Cc1cccc(Nc2ncnc3cnc(N)nc23)c1,17.189999999999998,2,exact,active
 CHEMBL299026,CCN(CC)CCCNc1ncc2cc(-c3c(Cl)cccc3Cl)c(NC(=O)NC(C)(C)C)nc2n1,6200.0,1,exact,inactive
 CHEMBL299194,CN1CCN(CCCNc2ncc3cc(-c4c(Cl)cccc4Cl)c(=O)n(C)c3n2)CC1,8700.0,2,exact,inactive
@@ -2763,10 +2759,8 @@ CHEMBL307250,COc1cc(/C=C(\C#N)C(=O)O)ccc1O,325000.0,1,exact,inactive
 CHEMBL307481,O=[N+]([O-])/C=C/c1ccc(O)cc1,10050.0,2,exact,inactive
 CHEMBL307599,Cc1ccc(Nc2ncnc3[nH]c(C)c(C)c23)cc1,2100.0,1,exact,inactive
 CHEMBL308048,N#C/C(=C\c1ccc(O)cc1)C(N)=O,800000.0,2,exact,inactive
-CHEMBL308133,O=C(O)C(=Cc1ccc(O)cc1)C(=O)O,1500000.0,1,exact,inactive
 CHEMBL308134,N#CC(C#N)=Cc1ccc(O)c([N+](=O)[O-])c1,125000.0,1,exact,inactive
 CHEMBL308210,COc1cc2cc(-c3ccc(OCc4ccccc4)cc3)cnc2cc1OC,20000.0,1,lower_limit,inactive
-CHEMBL308339,N#CC(C#N)=C1C(=O)NC(=O)NC1=O,1400000.0,1,exact,inactive
 CHEMBL308466,COc1cccc(-c2cnc3cc(OC)c(OC)cc3c2)c1,20000.0,1,lower_limit,inactive
 CHEMBL308498,CC(C)(CO)NCc1ccc(-c2cc3ncnc(Nc4ccc5[nH]ccc5c4)c3s2)cc1,4.5,2,exact,active
 CHEMBL3085277,C[C@H](Nc1ncnc2c1sc1ccccc12)c1ccccc1,538.0,1,exact,active
@@ -2872,7 +2866,6 @@ CHEMBL3098323,COc1cc2nc(Cl)nc(Nc3ccc(S(=O)(=O)O)cc3)c2cc1OC,100000.0,1,lower_lim
 CHEMBL3098324,COc1cc2nc(Cl)nc(Nc3ccc(C(=O)O)cc3)c2cc1OC,100000.0,1,lower_limit,inactive
 CHEMBL3098325,COc1cc2nc(Cl)nc(Nc3ccc(C(N)=O)cc3)c2cc1OC,900.0,1,exact,active
 CHEMBL3098326,COc1cc2nc(Cl)nc(Nc3ccc(NC(C)=O)cc3)c2cc1OC,37600.0,1,exact,inactive
-CHEMBL309866,N#C/C(=C\c1ccc([N+](=O)[O-])cc1)C(=O)O,1300000.0,1,exact,inactive
 CHEMBL309937,CCc1ccc(Nc2ncnc3[nH]c(C)c(C)c23)cc1,77500.0,1,exact,inactive
 CHEMBL310400,N#CC(C#N)=Cc1cccc(O)c1,375000.0,1,exact,inactive
 CHEMBL310514,N#CC(C#N)=Cc1ccc[nH]1,260000.0,1,exact,inactive
@@ -3186,7 +3179,7 @@ CHEMBL324399,COc1cc2ncc(C#N)c(Nc3cccc(NC(C)=O)c3)c2cc1OC,69183.1,1,exact,inactiv
 CHEMBL324439,COc1cc2c(C#N)cnc(Nc3cccc(Br)c3)c2cc1OC,70794.58,1,exact,inactive
 CHEMBL324718,C=CC(=O)Nc1cc2c(Nc3cccc(Br)c3)c(C#N)cnc2cc1OC,811.415,4,exact,active
 CHEMBL324926,COc1cc(Nc2ncc3cc(-c4c(Cl)cccc4Cl)c(=O)n(C)c3n2)cc(OC)c1,330.0,1,exact,active
-CHEMBL325156,CCN(CC)C(C)/C=C/C(=O)Nc1cc2c(Nc3ccc(F)c(Cl)c3)c(C#N)cnc2cc1OC,4840.0,4,exact,inactive
+CHEMBL325156,CCN(CC)C(C)/C=C/C(=O)Nc1cc2c(Nc3ccc(F)c(Cl)c3)c(C#N)cnc2cc1OC,4840.0,3,exact,inactive
 CHEMBL325245,COc1cc2ncnc(NCc3ccccc3)c2cc1OC,10.0,1,exact,active
 CHEMBL325589,Cn1c(=O)c(-c2c(Cl)cccc2Cl)cc2cnc(Nc3cccnc3)nc21,510.0,1,exact,active
 CHEMBL325760,COc1cc2ncc(C#N)c(Nc3cccc(C(C)=O)c3)c2cc1OC,7413.1,1,exact,inactive
@@ -3223,7 +3216,7 @@ CHEMBL3263968,COc1cc2c(Oc3ccc(NS(=O)(=O)c4cccc(-c5cccs5)c4)cc3F)ccnc2cc1OCCCN1CC
 CHEMBL3263969,COc1cc2c(Oc3ccc(NS(=O)(=O)c4cccc(-c5ccco5)c4)cc3F)ccnc2cc1OCCCN1CCN(C)CC1,1903.5,2,exact,inactive
 CHEMBL326445,COc1cc2ncc(C#N)c(Nc3cc(Cl)ccc3O)c2cc1OC,16982.44,1,exact,inactive
 CHEMBL326596,COc1ccc2c(NCc3ccccc3)ncnc2c1,58.0,1,exact,active
-CHEMBL326811,C/C=C/C(=O)Nc1ccc2ncc(C#N)c(Nc3cccc(Br)c3)c2c1,1620.0,5,exact,inactive
+CHEMBL326811,C/C=C/C(=O)Nc1ccc2ncc(C#N)c(Nc3cccc(Br)c3)c2c1,1620.0,4,exact,inactive
 CHEMBL327023,N#Cc1cnc2ccc(NC(=O)C#CCN3CCSCC3)cc2c1Nc1cccc(Br)c1,550.0,5,exact,active
 CHEMBL327127,Cn1c(=O)c(-c2c(Cl)cccc2Cl)cc2cnc(Nc3cccc(CO)c3)nc21,86.0,2,exact,active
 CHEMBL327188,COc1cc(Nc2c(C#N)cnc3cc4c(cc23)ncn4CCN2CCOCC2)c(Br)cc1Cl,1000.0,1,lower_limit,inactive
@@ -3302,7 +3295,7 @@ CHEMBL332096,Nc1ccc2ncnc(NCc3ccccc3)c2c1,954.0,2,exact,active
 CHEMBL332173,COc1cccc(CNc2ncnc3cc(N)ncc23)c1,2870.0,1,exact,inactive
 CHEMBL332269,CCCCNc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1,4400.0,1,exact,inactive
 CHEMBL332333,c1ccc(Nc2nc[nH]c3nnc(Nc4ccccc4)c2-3)cc1,6029.0,2,exact,inactive
-CHEMBL332497,COc1cc2ncc(C#N)c(Nc3cccc(Br)c3)c2cc1NC(=O)/C=C/CN1CCOCC1,3830.0,4,exact,inactive
+CHEMBL332497,COc1cc2ncc(C#N)c(Nc3cccc(Br)c3)c2cc1NC(=O)/C=C/CN1CCOCC1,3830.0,3,exact,inactive
 CHEMBL3325470,Cc1ccc2c(c1)cc(C1C(C#N)=C(N)N(c3cccnc3)C3=C1C(=O)CCC3)c1nnnn12,10400.0,1,exact,inactive
 CHEMBL3325471,COc1ccc2c(c1)cc(C1C(C#N)=C(N)N(c3cccnc3)C3=C1C(=O)CCC3)c1nnnn12,5400.0,1,exact,inactive
 CHEMBL3325472,N#CC1=C(N)N(c2cccnc2)C2=C(C(=O)CCC2)C1c1cc2cc(Cl)ccc2n2nnnc12,18300.0,1,exact,inactive
@@ -3373,14 +3366,14 @@ CHEMBL335052,CN(c1ccccc1)c1[nH]cnc2ncnc1-2,2000.0,1,exact,inactive
 CHEMBL335074,COC(=O)c1cc(/N=C/c2ccccc2O)ccc1O,10000.0,1,lower_limit,inactive
 CHEMBL3352869,COc1cc2ncnc(Nc3ccc(OCc4cccc(F)c4)c(Cl)c3)c2cc1NC(=O)/C(F)=C\CN(C)C,1.3,1,exact,active
 CHEMBL3352899,COc1cc2c(Nc3cccc(Br)c3)ncnc2cc1OCCCCCCn1ccnc1[N+](=O)[O-],0.78,1,exact,active
-CHEMBL3353395,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N1CCN(C(=O)CN(C)C)CC1,73000.0,3,exact,inactive
-CHEMBL3353396,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N1CCN(C(=O)[C@H](C)N)CC1,28000.0,3,exact,inactive
-CHEMBL3353397,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N1CCN(C(=O)[C@@H]2CCCCN2)CC1,211000.0,3,exact,inactive
-CHEMBL3353398,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N1CCN(C(=O)[C@H]2CCCCN2)CC1,220000.0,3,exact,inactive
-CHEMBL3353399,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N1CCN(C(=O)CNC)CC1,156000.0,3,exact,inactive
-CHEMBL3353400,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N1CCN(C(=O)[C@H](C)O)CC1,179000.0,3,exact,inactive
-CHEMBL3353401,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N1CCN(C(=O)N2CCNCC2)CC1,247000.0,3,exact,inactive
-CHEMBL3353402,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N1CCN(C(=O)[C@@H](C)N)CC1,351000.0,3,exact,inactive
+CHEMBL3353395,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N1CCN(C(=O)CN(C)C)CC1,44500.0,2,exact,inactive
+CHEMBL3353396,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N1CCN(C(=O)[C@H](C)N)CC1,23500.0,2,exact,inactive
+CHEMBL3353397,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N1CCN(C(=O)[C@@H]2CCCCN2)CC1,121000.0,2,exact,inactive
+CHEMBL3353398,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N1CCN(C(=O)[C@H]2CCCCN2)CC1,138500.0,2,exact,inactive
+CHEMBL3353399,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N1CCN(C(=O)CNC)CC1,111000.0,2,exact,inactive
+CHEMBL3353400,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N1CCN(C(=O)[C@H](C)O)CC1,127000.0,2,exact,inactive
+CHEMBL3353401,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N1CCN(C(=O)N2CCNCC2)CC1,191000.0,2,exact,inactive
+CHEMBL3353402,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N1CCN(C(=O)[C@@H](C)N)CC1,264000.0,2,exact,inactive
 CHEMBL3353403,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N1CC[C@@H](N(C)C)C1,16000.0,3,exact,inactive
 CHEMBL3353404,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N(C)CCN(C)C,600.0,5,exact,active
 CHEMBL3353405,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnn4ccccc34)n2)c(OC)cc1N1CC(N(C)C)C1,4000.0,5,exact,inactive
@@ -5816,7 +5809,7 @@ CHEMBL4209588,Cc1c(C(=O)NC(CO)Cc2ccccc2)[nH]c2ccc(Cl)cc12,500.0,1,exact,active
 CHEMBL4209801,CN1CCN(c2ccc(Nc3cc4c(N5CCCC5)nc(Nc5ccccc5)nc4cn3)nc2)CC1,4.4,3,exact,active
 CHEMBL4210100,COc1cc2c(cc1OC)Nc1ncnc(Oc3ccc(NC(=O)C4(C(=O)Nc5ccc(F)cc5)CC4)cc3F)c1NC2,267.6,1,exact,active
 CHEMBL4210237,C=CC(=O)Nc1ccccc1Oc1nc(Nc2ccc(N3CCN(C)CC3)cc2OC)ncc1Cl,8420.0,3,exact,inactive
-CHEMBL421047,CN(C)C/C=C/C(=O)Nc1cc2c(Nc3ccc(F)c(Cl)c3)c(C#N)cnc2cc1OC(F)(F)F,2640.0,4,exact,inactive
+CHEMBL421047,CN(C)C/C=C/C(=O)Nc1cc2c(Nc3ccc(F)c(Cl)c3)c(C#N)cnc2cc1OC(F)(F)F,2640.0,3,exact,inactive
 CHEMBL4210550,COc1ccc(-c2c3c4cc(O)c(OCCCN(C)C)cc4oc(=O)c3n3ccc4cc(O)c(OC)cc4c23)cc1O.O=C(O)C(F)(F)F,65.19999999999999,2,exact,active
 CHEMBL4210744,COc1cc(N2CCN(C)CC2)ccc1Nc1ncc(Cl)c(Oc2cccc(N)c2)n1,6490.0,3,exact,inactive
 CHEMBL4211322,COc1cc(N2CCN(C)CC2)ccc1Nc1ncc(Cl)c(Oc2ccccc2[N+](=O)[O-])n1,9350.0,3,exact,inactive
@@ -5934,7 +5927,7 @@ CHEMBL424093,Brc1cccc(Nc2ncnc3ccc(N/N=N/Cc4ccccc4)cc23)c1,25.0,1,exact,active
 CHEMBL4241486,O=C(N/N=C1\CC2(CCCCC2)Oc2c1ccc1ccccc21)C1C2CC3CC(C2)CC1C3,1200.0,1,exact,inactive
 CHEMBL4241638,CCN(c1ccc(OC)cc1)c1ncnc2occ(C)c12,92.5,1,exact,active
 CHEMBL4241867,O=C(N/N=C1\CC2(CCCC2)Oc2ccccc21)Nc1ccc(Cl)cc1,1900.0,1,exact,inactive
-CHEMBL424252,CCN(CC)C/C=C/C(=O)Nc1cc2c(Nc3ccc(F)c(Cl)c3)c(C#N)cnc2cc1OC,1910.0,4,exact,inactive
+CHEMBL424252,CCN(CC)C/C=C/C(=O)Nc1cc2c(Nc3ccc(F)c(Cl)c3)c(C#N)cnc2cc1OC,1910.0,3,exact,inactive
 CHEMBL4242522,CCc1ccc(N(C)c2ncnc3occ(C)c23)cc1,4.0,1,exact,active
 CHEMBL424255,COc1cccc2c(NCc3ccccc3)ncnc12,10000.0,1,lower_limit,inactive
 CHEMBL424302,N#C/C(=C\c1ccc(O)c(O)c1)C(=O)NCCCCCCCCCCNC(=O)/C(C#N)=C/c1ccc(O)c(O)c1,13150.0,2,exact,inactive
@@ -6421,7 +6414,6 @@ CHEMBL450109,O=C(O[C@@H]1CN[C@@H](C#Cc2cc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3s2
 CHEMBL450319,N#CC(C#N)=C(C#N)c1ccc(O)cc1,600000.0,1,exact,inactive
 CHEMBL450396,O=C(O[C@H]1CN[C@@H](C#Cc2cc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3s2)C1)N1CCOCC1,50.0,1,exact,active
 CHEMBL450622,COc1cccc(-c2ccc3c(c2)NC(=O)/C3=C\c2[nH]cc(C)c2CCC(=O)O)c1,49200.0,1,exact,inactive
-CHEMBL45068,O=C(CCc1ccc(O)cc1)c1c(O)cc(O)cc1O,25000000.0,1,exact,inactive
 CHEMBL450786,Cc1[nH]c(/C=C2\C(=O)Nc3ccc(S(=O)(=O)Cc4c(Cl)cccc4Cl)cc32)c(C)c1C(=O)N1CCC[C@@H]1CN1CCCC1,3800.0,1,exact,inactive
 CHEMBL450944,O=C(CC1CCSS1)Nc1ccc2ncnc(Nc3cccc(Br)c3)c2c1,3000.0,1,lower_limit,inactive
 CHEMBL451074,O=C(O[C@H]1CN[C@H](C#Cc2cc3ncnc(Nc4ccc5c(cnn5S(=O)(=O)c5cccc(F)c5)c4)c3s2)C1)N1CCOCC1,230.0,1,exact,active
@@ -7123,7 +7115,7 @@ CHEMBL4798434,CNc1nc(C)c(C(=O)/C=C/c2nccs2)s1,255.6,1,exact,active
 CHEMBL4798480,C=CC(=O)Nc1cc(Nc2cc(-n3c(SC)nnc3-c3ccc(F)cc3)ccn2)ccc1N(C)CCN(C)C,184.55,2,exact,active
 CHEMBL4798527,Cc1ccc(NC(=O)c2ccc(C)c(C(F)(F)F)c2)cc1C#Cc1nn([C@H]2CC[C@H](O)CC2)c2ncnc(N)c12,19.0,5,exact,active
 CHEMBL47986,O=CN/C=C/c1cc(O)ccc1O,3000.0,3,exact,inactive
-CHEMBL4798627,O=C(Cc1csc2nc3ccccc3n12)Nc1ccccc1O,27500027.5,2,exact,inactive
+CHEMBL4798627,O=C(Cc1csc2nc3ccccc3n12)Nc1ccccc1O,55.0,1,exact,active
 CHEMBL4798996,CN1CCN(c2ccc(Nc3nc(Oc4ccc5ccc(=O)[nH]c5c4)c4sccc4n3)nc2)CC1,5500.0,2,lower_limit,inactive
 CHEMBL4799113,COCC/C(=N\S(=O)(=O)Cc1ccc(Cl)cc1)Nc1ccc(Oc2ccnc3cc(OCCCN4CCOCC4)c(OC)cc23)c(F)c1,10000.0,1,lower_limit,inactive
 CHEMBL4799276,C=CC(=O)Nc1cccc(-c2c(-c3ccc(N4CCN(C)CC4)cc3)[nH]c3ncnc(OC(C)C)c23)c1,8.6,1,exact,active
@@ -7296,7 +7288,6 @@ CHEMBL490093,C=CC(=O)N(C)c1nc2c(Cc3ccc(F)c(Cl)c3)ncnc2cc1OCCCN1CCOCC1,19.95,1,ex
 CHEMBL490496,C=CC(=O)Nc1nc2c(Cc3ccc(F)c(Cl)c3)ncnc2cc1/C=C/CCN1CCOCC1,0.1585,1,exact,active
 CHEMBL490497,C=CC(=O)Nc1nc2c(Cc3ccc(F)c(Cl)c3)ncnc2cc1OC,0.955,1,exact,active
 CHEMBL490498,C=CC(=O)Nc1nc2c(Cc3ccc(F)c(Cl)c3)ncnc2cc1OCCOC,0.9772,1,exact,active
-CHEMBL490510,O=C(/C=C/c1ccc(O)c(O)c1)c1ccc(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)c(O)c1O,19000000.0,1,exact,inactive
 CHEMBL490555,c1cc(Nc2ncnc3[nH]ccc23)cc(-c2nc3ccccc3s2)c1,10000.0,1,lower_limit,inactive
 CHEMBL490569,N#C/C(=C\c1cc(CSc2ccccc2)c(O)c(OCc2ccccc2)c1)C(N)=O,800.0,1,exact,active
 CHEMBL490570,CC(C)(C)c1cc(/C=C(\C#N)C(N)=O)cc(C(C)(C)C)c1O,50000.0,1,exact,inactive
@@ -7886,7 +7877,7 @@ CHEMBL5206298,COc1cc(N(C)CCN(C)C)c(NC(=O)c2ccncn2)cc1Nc1nccc(-c2cn(CCCO)c3ccccc2
 CHEMBL5206400,COC(=O)CCc1nc2ccc(Cl)cc2[nH]c1=O,711.38,2,exact,active
 CHEMBL5206436,CN1CCN(c2ccc(-c3ccc4cnn(C(C(=O)Nc5nccs5)c5ccccc5)c(=O)c4c3)cc2)CC1,10.3,1,exact,active
 CHEMBL5206444,CC(C)c1ccc(N2CC(CS(C)(=O)=O)C2)c2cnc(Nc3ccnc(N4CC[C@@H](O)[C@@](C)(F)C4)n3)cc12,2.7,5,exact,active
-CHEMBL5206476,O=C1c2ccccc2CN1C(c1nc(=O)c2ccccc2[nH]1)c1cc(F)ccc1O,5300.0,4,exact,inactive
+CHEMBL5206476,O=C1c2ccccc2CN1C(c1nc(=O)c2ccccc2[nH]1)c1cc(F)ccc1O,5300.0,3,exact,inactive
 CHEMBL5206600,CCC(=O)N1CCC[C@@H](N2CC(c3cccc(F)c3Cl)=C(C)c3cnc(Nc4ccc(N5CCN(C)CC5)c(C)c4)nc32)C1,344.75,2,exact,active
 CHEMBL5206683,CCOc1cc(N2CCC(N3CCN(C)CC3)CC2)c(Cl)cc1Nc1ncc(Cl)c(-c2cn(S(=O)(=O)CC)c3ccccc23)n1,9.75,4,exact,active
 CHEMBL5206697,COc1cc2ncnc(Nc3cc(Cl)c(F)cc3O)c2cc1O,313.9,4,exact,active
@@ -9306,7 +9297,6 @@ CHEMBL5765377,Cc1nc(F)ccc1[C@H](Nc1cc(Cl)c2ncc(C#N)c(Nc3cnc(F)c(F)c3)c2c1)C1=CN(
 CHEMBL5765903,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3ccn(C)c3)n2)c(OC)cc1N1CCC(N(C)C)CC1,211.0,2,exact,active
 CHEMBL5766029,C=CC(=O)Nc1cc(Nc2nc(-c3cnn(C)c3)c3cc[nH]c3n2)c(OC)cc1OCCN(C)C,301.0,2,exact,active
 CHEMBL5766216,Cc1nc(F)ccc1[C@H](Nc1cc(Cl)c2ncc(C#N)c(NCC(C)(C)C)c2c1)C1=CN(C(C)(C)C(F)(F)F)NN1,6.0,1,exact,active
-CHEMBL57663,N#CC(C#N)=Cc1ccc(C#N)cc1,1400000.0,1,exact,inactive
 CHEMBL5766471,C=CC(=O)Nc1cccc(Nc2nc(Nc3ccc(C4=CCN(C(C)=O)CC4)cc3OC)ncc2C(F)(F)F)c1,351.85,2,exact,active
 CHEMBL5766497,C=CC(=O)Nc1ccc(OC)c(Nc2ncc(C#N)c(-c3cn(C)c4cc(OCC5CCCN5C)ccc34)n2)c1,750.0,2,exact,active
 CHEMBL5766528,C=CC(=O)Nc1cc(Nc2ncc(Cl)c(-c3cnc4c(ccn4C(C)C)c3)n2)c(OC)cc1N(C)CCN(C)C,8.0,2,exact,active
@@ -9350,7 +9340,6 @@ CHEMBL5770970,Cn1cc(-c2cc(C(=O)/N=c3\[nH]c4ccccc4n3[C@H]3C[C@H](O)C[C@H](O)C3)cc
 CHEMBL5771047,C=CC(=O)Nc1cc(Nc2ncc(F)c(-c3cnc4c(ccn4C)c3)n2)c(OC)cc1OCCN(C)C,4.0,2,exact,active
 CHEMBL5771119,COC1=C([C@@H](Nc2cc(C#N)c3ncc(C#N)c(NCC(C)(C)C)c3c2)c2ccc(F)nc2C)NNN1C1(C(F)F)CC1,3.0,1,exact,active
 CHEMBL5771166,CC(C)N1C=C([C@@H](Nc2cc(Cl)c3ncc(C#N)c(Nc4ccc(F)c(Cl)c4)c3c2)c2ccc(Cl)nc2Cl)NN1,23.0,1,exact,active
-CHEMBL57712,N#CC(C#N)=Cc1cc[n+]([O-])cc1,1300000.0,2,exact,inactive
 CHEMBL5771584,Cc1ncsc1-c1ccc(CNC(=O)[C@@H]2C[C@@H](O)CN2C(=O)[C@@H](NC(=O)COCCOCCOCCN2CCN(Cc3ccc(-c4cc5c(NCc6ccccc6Cl)ncnc5[nH]4)cc3)CC2)C(C)(C)C)cc1,230.0,7,exact,active
 CHEMBL5771634,C=CC(=O)Nc1cc(Nc2nccc(-c3cc(F)c4nc(OC(C)C)n(C(C)C)c4c3)n2)c(OC)cc1N(C)CCN(C)C,25.0,2,exact,active
 CHEMBL5771679,CC(C)(C)CNc1ncnc2c(Cl)cc(NC(c3ccc(F)cc3)c3cn(C4(C(F)(F)F)CC4)nn3)cc12,10.0,2,exact,active
@@ -10231,7 +10220,7 @@ CHEMBL5886152,CN(C)C/C=C/C(=O)N1CCC(Nc2cncc(-c3cnc(Nc4cccc(Cl)c4)nc3)c2)CC1,2650
 CHEMBL5886177,N#Cc1cnc2c(Cl)cc(N[C@H](C3=CN(C4COC4)NN3)c3csc4c3CCNC4)cc2c1Nc1ccc(F)c(Cl)c1,3.0,1,exact,active
 CHEMBL5886252,NC(=O)c1c(-c2ccc(Oc3ccc(Cl)cc3)cc2)nn(C2CCCN(C(=O)/C=C/CO)C2)c1N,2200.0,1,exact,inactive
 CHEMBL5886334,CN(C)C(=O)N[C@@H]1CCCN(c2cnc(C(N)=O)c(Nc3ccc(S(C)(=O)=O)cc3)n2)C1,5500.0,1,exact,inactive
-CHEMBL5886380,C=CC(=O)Nc1cccc(Nc2nc(Nc3cccc4c3CCN(C(C)=O)C4)ncc2C(F)(F)F)c1,646950.0,2,exact,inactive
+CHEMBL5886380,C=CC(=O)Nc1cccc(Nc2nc(Nc3cccc4c3CCN(C(C)=O)C4)ncc2C(F)(F)F)c1,9900.0,1,exact,inactive
 CHEMBL5886676,C=CC(=O)Nc1cccc(Nc2nc(Nc3ccc(OC)nc3)ncc2C(=O)NC(C)(C)C)c1,1050.0,1,exact,inactive
 CHEMBL5886724,CN1Cc2cccc([C@H](Nc3cc(C#N)c4ncc(C#N)c(NCC(C)(C)C)c4c3)C3=CN(C4CC4)NN3)c2C1=O,3.0,2,exact,active
 CHEMBL5886836,Cc1nc(C)c([C@H](Nc2cc(Cl)c3ncc(C#N)c(Nc4ccc(F)c(Cl)c4)c3c2)C2=CN(C3CCN(C(C)(C)C)CC3)NN2)s1,14.0,1,exact,active
@@ -10298,7 +10287,7 @@ CHEMBL589365,Cc1cc(C)c(O)c(CN(Cc2ccccc2)C(=S)Nc2ccccc2)c1,50000.0,1,lower_limit,
 CHEMBL5893709,CC(C)(C)CNc1c(C#N)cnc2c(Cl)cc(N[C@H](C3=CN(C4(C#N)CC4)NN3)c3cccc4ncccc34)cc12,2.0,1,exact,active
 CHEMBL5893885,COc1ccccc1C(=O)NCc1ccc(-c2nn(C3CCCO3)c3ncnc(N)c23)cc1,5500.0,2,exact,inactive
 CHEMBL5893933,O=C1CCC(N2C(=O)c3ccc(N4CCN(CCCC#Cc5cccc6c5C(=O)N(C(C(=O)Nc5nccs5)c5cc(F)ccc5O)C6)CC4)cc3C2=O)C(=O)N1,3550.0,4,exact,inactive
-CHEMBL5894042,C=CC(=O)Nc1cccc(Nc2nc(Nc3ccc4c(c3OC)CN(C(C)=O)CC4)ncc2C(F)(F)F)c1,692500.0,2,exact,inactive
+CHEMBL5894042,C=CC(=O)Nc1cccc(Nc2nc(Nc3ccc4c(c3OC)CN(C(C)=O)CC4)ncc2C(F)(F)F)c1,16000.0,1,exact,inactive
 CHEMBL5894059,Cn1cc(-c2cc(C(=O)/N=c3\[nH]c4ccccc4n3[C@@H]3CCC[C@H](O)C3)ccn2)cn1,566.0,2,exact,active
 CHEMBL5894066,C=CC(=O)N1CCCC(Nc2nc(Nc3ccc(C(=O)N4CCOCC4)cc3)c3c(c2F)CNC3=O)C1,1786.0,1,exact,inactive
 CHEMBL589413,CCCCN(Cc1cccc(Cl)c1O)C(=S)Nc1ccccc1,18120.0,1,exact,inactive
@@ -11818,7 +11807,7 @@ CHEMBL6067939,Cc1scnc1[C@H](Nc1cc(Cl)c2ncc(C#N)c(NCC(C)(C)C)c2c1)C1=CN(C2(C(F)F)
 CHEMBL6068008,[2H]C([2H])([2H])n1cc(-c2ccnc(Nc3cc(NC(=O)C=C)c(N(C)CCN(C)C)cc3OC)n2)c2ccccc21,18.15,2,exact,active
 CHEMBL6068562,CCOc1cc2ncnc(Nc3ccc(Oc4ccn5ncnc5c4)c(C)c3)c2cc1NC(=O)/C(F)=C/[C@H]1CCCN1C,8.13,1,exact,active
 CHEMBL606964,COc1ccc(N2Cc3cnc(Nc4ccc(F)cc4)nc3N([C@@H]3CC[C@@H](O)C3)C2=O)cc1,545.0,1,exact,active
-CHEMBL607707,CCOc1cc2ncc(C#N)c(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN(C)C,39.0,21,exact,active
+CHEMBL607707,CCOc1cc2ncc(C#N)c(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN(C)C,39.0,20,exact,active
 CHEMBL6078426,COc1cc2nc(-c3ccc(C(F)(F)F)cc3)cc(OCCCNC3CCN(C)CC3)c2cc1OC,20.15,2,exact,active
 CHEMBL6078446,O=C(O)CN1CCN(CC(=O)O)CC(=O)Nc2cc3c(Nc4cccc(F)c4)ncnc3cc2NC(=O)C1,148.5,2,exact,active
 CHEMBL60816,O=[N+]([O-])c1cccc(Nc2nccc(-c3ccccn3)n2)c1,100000.0,1,lower_limit,inactive
@@ -12154,7 +12143,6 @@ CHEMBL66718,Clc1cc2cc(-c3ccsc3)cnc2cc1Cl,20000.0,1,lower_limit,inactive
 CHEMBL66785,COc1cc2cc(C3CCCC3)cnc2cc1OC,20000.0,1,lower_limit,inactive
 CHEMBL66786,COc1cc2cc(CCC3CCCCC3)cnc2cc1OC,20000.0,1,lower_limit,inactive
 CHEMBL66787,COc1ccc(CCc2cnc3cc(OC)c(OC)cc3c2)cc1,20000.0,1,lower_limit,inactive
-CHEMBL66879,O=C(O)/C=C/c1ccc(O)cc1,3000000.0,1,exact,inactive
 CHEMBL66924,COc1cc2cc(-c3cc(F)c(OC)c(F)c3)cnc2cc1OC,20000.0,1,lower_limit,inactive
 CHEMBL66925,COc1ccc(-c2cnc3cc(OC)c(OC)cc3c2)cc1C,20000.0,1,lower_limit,inactive
 CHEMBL66932,COc1cc2cc(OCc3ccccc3)cnc2cc1OC,20000.0,1,lower_limit,inactive
@@ -12220,7 +12208,6 @@ CHEMBL75177,Clc1cccc(Nc2ncnc3[nH]c4c(c23)CCCC4)c1,29.0,3,exact,active
 CHEMBL75188,Cc1cc(C)c(C)c(-c2cc3cnc(NCCCN4CCN(C)CC4)nc3nc2NC(=O)NC(C)(C)C)c1C,7000.0,1,exact,inactive
 CHEMBL75208,Cc1[nH]c2ncnc(Nc3cccc(C#N)c3)c2c1C,200.0,1,exact,active
 CHEMBL75232,Clc1ccc(Nc2nnc(Cc3ccncc3)c3ccccc23)cc1.O=C(O)CCC(=O)O,10000.0,1,lower_limit,inactive
-CHEMBL75718,N#C/C=C/c1ccc(O)cc1,2400000.0,1,exact,inactive
 CHEMBL7572,CC(=O)Oc1ccc2[nH]c(C(=O)c3cc4ccccc4[nH]3)cc2c1,10000.0,1,lower_limit,inactive
 CHEMBL75880,C1CCC(C(CC2CCCCN2)C2CCCCC2)CC1,1485.2,1,exact,inactive
 CHEMBL7600,COCC(=O)Oc1ccc2[nH]c(C(=O)c3cc4ccccc4[nH]3)cc2c1,30000.0,1,lower_limit,inactive
@@ -12229,7 +12216,6 @@ CHEMBL76116,Cc1[nH]c2ncnc(Oc3cccc(Cl)c3)c2c1C,2500.0,1,exact,inactive
 CHEMBL76432,c1ccc(-c2cc3ncnc(Nc4ccc5[nH]ccc5c4)c3s2)cc1,3.0,3,exact,active
 CHEMBL76444,Cc1[nH]c2ncnc(N(C)c3cccc(Cl)c3)c2c1C,500.0,1,exact,active
 CHEMBL76557,N#CCNC(=O)/C(C#N)=C/c1ccc(O)cc1,625000.0,1,exact,inactive
-CHEMBL76587,N#CC(C#N)Cc1ccc(O)cc1,6500000.0,1,exact,inactive
 CHEMBL76589,N#CC(C#N)=C(N)/C(C#N)=C/c1ccc(O)cc1,112.5,2,exact,active
 CHEMBL76599,CC(C)(C)NC(=O)Nc1nc2nc(N)ncc2cc1-c1ccccc1,5530.0,1,exact,inactive
 CHEMBL76602,N#C/C(=C\c1ccc(O)cc1)C(=O)O,182500.0,2,exact,inactive
@@ -12245,12 +12231,10 @@ CHEMBL7699,O=c1c(-c2cccc(Cl)c2)coc2cc(O)ccc12,58800.0,1,exact,inactive
 CHEMBL77030,N#C/C(=C\c1ccc(O)c(O)c1)C(N)=S,2400.0,5,exact,inactive
 CHEMBL77085,N#CC(C#N)=Cc1cc(O)ccc1[N+](=O)[O-],96000.0,1,exact,inactive
 CHEMBL77100,CCCCNC(=O)c1ccc(S(=O)(=O)Oc2ccc(/C=C/[N+](=O)[O-])cc2)cc1,4900.0,2,exact,inactive
-CHEMBL77197,COc1cc(/C(C)=C(\C#N)C(=O)O)ccc1O,1100000.0,1,exact,inactive
 CHEMBL77243,CCCCc1cc(/C=C(\C#N)C(N)=O)cc(CCCC)c1O,55000.0,1,exact,inactive
 CHEMBL77298,COc1cc(C=C(C#N)C#N)cc(Br)c1O,153000.0,1,exact,inactive
 CHEMBL77342,Cc1cc2cc(Nc3ccnc4cc(-c5ccc(CNCCOCCO)cc5)sc34)ccc2[nH]1,657.0,1,exact,active
 CHEMBL7735,O=C(c1cc2ccccc2[nH]1)c1cc2cc(O)ccc2[nH]1,30000.0,1,lower_limit,inactive
-CHEMBL77381,N#C/C(=C/c1ccc[nH]1)C(=O)O,1360000.0,1,exact,inactive
 CHEMBL77387,N#CC(C#N)=Cc1ccc([N+](=O)[O-])c(O)c1,450000.0,1,exact,inactive
 CHEMBL77397,COc1cc(/C=C(\C)[N+](=O)[O-])ccc1OS(=O)(=O)c1ccc(C(=O)O)cc1,2750.0,2,exact,inactive
 CHEMBL77401,COC(=O)c1ccc(S(=O)(=O)Oc2ccc(/C=C/[N+](=O)[O-])cc2)cc1,1750.0,2,exact,inactive
