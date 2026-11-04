@@ -49,8 +49,14 @@ def main() -> None:
     ).to_csv(SPLIT_OUTPUT, index=False)
 
     # 2. Train the random forest on the training set only.
+    # class_weight="balanced" makes each inactive molecule count more during
+    # fitting, since actives outnumber them. On the scaffold split this lifted
+    # inactive recall from 62.4% to 72.6% (see experiment_class_weight.py).
     model = RandomForestClassifier(
-        n_estimators=N_TREES, n_jobs=-1, random_state=SEED
+        n_estimators=N_TREES,
+        n_jobs=-1,
+        random_state=SEED,
+        class_weight="balanced",
     )
     model.fit(X_train, y_train)
 
