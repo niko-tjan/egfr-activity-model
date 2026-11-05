@@ -85,7 +85,7 @@ Figures below are for the random split (`scripts/evaluate_model.py`):
 ![Confusion matrix](figures/confusion_matrix.png)
 ![ROC curve](figures/roc_curve.png)
 
-The model is clearly learning real structure-activity relationships. Both
+The model is clearly learning real structure–activity relationships. Both
 splits beat their baselines by more than 20 points. But roughly 8 points of
 accuracy and 0.075 of ROC-AUC in the random split come from chemical similarity
 leaking across the train/test boundary.
