@@ -1,10 +1,13 @@
 # Predicting EGFR inhibition from chemical structure
 
+A model that predicts whether a molecule could block a lung-cancer protein, and
+an honest look at how well it really works.
+
 A machine-learning model that predicts whether a small molecule inhibits the
 epidermal growth factor receptor (EGFR), trained on 12,455 compounds with
 measured IC50 values from ChEMBL. A random forest over Morgan fingerprints
 reaches **88.0% accuracy (ROC-AUC 0.941)** under a conventional random
-train/test split — but that number is inflated by near-identical compounds
+train/test split. But that number is inflated by near-identical compounds
 appearing on both sides of the split. Under a **Bemis–Murcko scaffold split**,
 where entire chemical series are held out so the test molecules belong to
 classes the model has never seen, performance drops to **79.6% accuracy
@@ -18,7 +21,7 @@ at a useful potency (IC50 < 1 µM)?
 
 EGFR is a receptor tyrosine kinase that drives cell proliferation. Activating
 mutations in *EGFR* are a major oncogenic driver in non-small-cell lung cancer,
-and the receptor is one of the most successfully drugged targets in oncology —
+and the receptor is one of the most successfully drugged targets in oncology:
 gefitinib, erlotinib, afatinib, osimertinib and lapatinib are all approved EGFR
 inhibitors. It is therefore unusually well characterised in public data, which
 makes it a good target for building and honestly stress-testing a
@@ -31,8 +34,8 @@ EGFR), retrieved via `chembl_webresource_client` from ChEMBL_37 (released
 2026-05-01) in November 2026. 25,244 IC50 measurements reported in nM; 25,083
 retained after discarding records with no structure or no value.
 
-**Cleaning** (`scripts/clean_and_label.py`) — the raw data needed more care
-than expected:
+**Cleaning** (`scripts/clean_and_label.py`). The raw data needed more care than
+expected:
 
 - **Qualifiers matter.** ChEMBL records whether a value is exact (`=`) or a
   limit (`>`, `<`). Exact values are kept; `>` values are kept only when they
@@ -41,7 +44,7 @@ than expected:
 - **Physically impossible values were present.** 106 `>` and 49 `=` records
   exceeded 1 mM, some as high as 0.8 M. Most are unit errors: the same compound
   appears at, say, 5,220 nM and again at 5,220,000 nM. All values above 1 mM
-  are dropped. Left in, they corrupted labels — one compound with five exact
+  are dropped. Left in, they corrupted labels. One compound with five exact
   measurements between 6 and 1,200 nM was being labelled *inactive* because six
   impossible `>` entries outvoted them in the median.
 - **Exact values take precedence.** Where a compound has any `=` measurement,
@@ -50,7 +53,7 @@ than expected:
 - **Replicates are merged by median**, which resists the order-of-magnitude
   outliers that are common across assays and laboratories.
 
-**Result:** 12,455 unique compounds — 7,897 active (63.4%) and 4,558 inactive
+**Result:** 12,455 unique compounds: 7,897 active (63.4%) and 4,558 inactive
 (36.6%) at a 1 µM cutoff.
 
 ## Method
@@ -82,29 +85,29 @@ Figures below are for the random split (`scripts/evaluate_model.py`):
 ![Confusion matrix](figures/confusion_matrix.png)
 ![ROC curve](figures/roc_curve.png)
 
-The model is clearly learning real structure–activity relationships — both
+The model is clearly learning real structure-activity relationships. Both
 splits beat their baselines by more than 20 points. But roughly 8 points of
 accuracy and 0.075 of ROC-AUC in the random split come from chemical similarity
 leaking across the train/test boundary.
 
 ## Three experiments
 
-**1. Holding out the approved drugs** (`experiment_holdout_drugs.py`) — the
+**1. Holding out the approved drugs** (`experiment_holdout_drugs.py`). The
 model scores all five approved EGFR inhibitors ≥ 0.98, but all five were in its
 training data, so this proves nothing. Retraining with them removed, all five
 are still predicted active. **However, measuring each drug's nearest remaining
 training neighbour revealed hidden duplicates:** afatinib's *opposite
-enantiomer* (Tanimoto 1.00 — Morgan fingerprints ignore stereochemistry, so it
-is literally the same input vector), erlotinib's *hydrochloride salt* (0.98),
+enantiomer* (Tanimoto 1.00, because Morgan fingerprints ignore stereochemistry,
+so it is literally the same input vector), erlotinib's *hydrochloride salt* (0.98),
 and osimertinib's *deuterated analogue* (0.91). Removing a compound by ChEMBL
 ID does not remove it from the training set. This was the finding that
 motivated the scaffold split.
 
-**2. Scaffold split** (`experiment_scaffold_split.py`) — grouping 12,455
+**2. Scaffold split** (`experiment_scaffold_split.py`). Grouping 12,455
 molecules into 4,500 scaffolds and splitting by series gives the honest
 estimate above: 88.0% → 79.6% accuracy, 0.941 → 0.866 ROC-AUC.
 
-**3. Class weighting** (`experiment_class_weight.py`) — on the scaffold split,
+**3. Class weighting** (`experiment_class_weight.py`). On the scaffold split,
 `class_weight="balanced"` raises inactive recall from 62.4% to 72.6% at a cost
 of 3.7 points of active recall. Notably **ROC-AUC is unchanged** (0.868 →
 0.866): the setting improves where the decision threshold sits, not what the
@@ -130,7 +133,7 @@ screening triage.
 ## What I would do next
 
 - Add physicochemical descriptors (logP, TPSA, molecular weight) alongside the
-  fingerprint bits — since class weighting did not move ROC-AUC, further gains
+  fingerprint bits, since class weighting did not move ROC-AUC, so further gains
   need genuinely new information rather than recalibration.
 - Deduplicate by canonical parent structure (InChIKey) to remove the salt,
   isotope and stereoisomer twins found in experiment 1.
