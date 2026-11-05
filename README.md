@@ -27,9 +27,9 @@ structure–activity model.
 ## Data
 
 **Source:** [ChEMBL](https://www.ebi.ac.uk/chembl/) target `CHEMBL203` (human
-EGFR), retrieved via `chembl_webresource_client`. 25,244 IC50 measurements
-reported in nM; 25,083 retained after discarding records with no structure or
-no value.
+EGFR), retrieved via `chembl_webresource_client` from ChEMBL_37 (released
+2026-05-01) in November 2026. 25,244 IC50 measurements reported in nM; 25,083
+retained after discarding records with no structure or no value.
 
 **Cleaning** (`scripts/clean_and_label.py`) — the raw data needed more care
 than expected:
@@ -175,9 +175,23 @@ Trained models are not committed; rebuild them with `train_model.py`. Note that
 **Stack:** Python 3.14 · RDKit · scikit-learn · pandas · NumPy · matplotlib ·
 chembl_webresource_client · uv
 
+## Data licence and citation
+
+Bioactivity data are from ChEMBL, released under a
+[Creative Commons Attribution-ShareAlike 3.0 Unported licence](https://creativecommons.org/licenses/by-sa/3.0/)
+(CC BY-SA 3.0). The derived data files in `data/` are adaptations of ChEMBL
+content and are redistributed here under the same licence.
+
+> Zdrazil B, Felix E, Hunter F, Manners EJ, Blackshaw J, Corbett S,
+> de Veij M, Ioannidis H, Mendez Lopez D, Mosquera JF, Magarinos MP,
+> Bosc N, Arcila R, Kizilören T, Gaulton A, Bento AP, Adasme MF,
+> Monecke P, Landrum GA, Leach AR. The ChEMBL Database in 2023: a drug
+> discovery platform spanning multiple bioactivity data types and time
+> periods. *Nucleic Acids Research* 2024;52(D1):D1180–D1192.
+> doi:[10.1093/nar/gkad1004](https://doi.org/10.1093/nar/gkad1004)
+
 ---
 
-*Built with help from [Claude Code](https://claude.com/claude-code). The
-analysis, decisions and interpretation are my own; Claude assisted with
-implementation, and several findings documented here — the impossible ChEMBL
-values and the hidden structural duplicates — emerged from that process.*
+*Built with Claude Code, which wrote most of the code and surfaced several
+findings (the impossible ChEMBL values and hidden duplicates). I directed the
+project, chose between approaches, and checked and interpreted the results.*
