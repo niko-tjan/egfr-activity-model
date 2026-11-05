@@ -1,0 +1,28 @@
+Licence for the data files in this directory
+============================================
+
+The files in this directory are derived from the ChEMBL database (target
+CHEMBL203, human EGFR; ChEMBL_37, released 2026-05-01). They are adaptations
+of ChEMBL content produced by the scripts in ../scripts/.
+
+ChEMBL is released under the Creative Commons Attribution-ShareAlike 3.0
+Unported licence (CC BY-SA 3.0):
+
+    https://creativecommons.org/licenses/by-sa/3.0/
+
+Because CC BY-SA 3.0 is a ShareAlike licence, these derived files are
+redistributed under the same licence. If you reuse or adapt them, you must
+give attribution and release your adaptation under CC BY-SA 3.0 as well.
+
+This differs from the MIT licence that covers the source code in this
+repository (see ../LICENSE).
+
+Attribution
+-----------
+
+Zdrazil B, Felix E, Hunter F, Manners EJ, Blackshaw J, Corbett S, de Veij M,
+Ioannidis H, Mendez Lopez D, Mosquera JF, Magarinos MP, Bosc N, Arcila R,
+Kizilören T, Gaulton A, Bento AP, Adasme MF, Monecke P, Landrum GA, Leach AR.
+The ChEMBL Database in 2023: a drug discovery platform spanning multiple
+bioactivity data types and time periods. Nucleic Acids Research
+2024;52(D1):D1180-D1192. doi:10.1093/nar/gkad1004

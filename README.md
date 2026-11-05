@@ -178,12 +178,17 @@ Trained models are not committed; rebuild them with `train_model.py`. Note that
 **Stack:** Python 3.14 · RDKit · scikit-learn · pandas · NumPy · matplotlib ·
 chembl_webresource_client · uv
 
-## Data licence and citation
+## Licence and citation
 
-Bioactivity data are from ChEMBL, released under a
+The source code in `scripts/` and the documentation are released under the
+[MIT licence](LICENSE).
+
+The data files in `data/` are **not** MIT licensed. Bioactivity data are from
+ChEMBL, released under a
 [Creative Commons Attribution-ShareAlike 3.0 Unported licence](https://creativecommons.org/licenses/by-sa/3.0/)
-(CC BY-SA 3.0). The derived data files in `data/` are adaptations of ChEMBL
-content and are redistributed here under the same licence.
+(CC BY-SA 3.0). The derived files in `data/` are adaptations of ChEMBL content
+and are redistributed under that same ShareAlike licence, so any reuse of them
+must be attributed and shared alike. See [data/LICENSE](data/LICENSE).
 
 > Zdrazil B, Felix E, Hunter F, Manners EJ, Blackshaw J, Corbett S,
 > de Veij M, Ioannidis H, Mendez Lopez D, Mosquera JF, Magarinos MP,
