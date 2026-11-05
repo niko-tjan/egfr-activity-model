@@ -14,6 +14,11 @@ classes the model has never seen, performance drops to **79.6% accuracy
 (ROC-AUC 0.866)**. The scaffold number is the honest one, and the gap between
 the two is the most interesting result in this project.
 
+**Start here:** [`notebooks/egfr_analysis.ipynb`](notebooks/egfr_analysis.ipynb)
+walks through the whole project end to end, with the data, the figures and the
+experiments in order and explained for a non-specialist reader. It renders
+directly on GitHub, with all outputs saved.
+
 ## The question
 
 Given only a molecule's 2D structure, can we predict whether it inhibits EGFR
@@ -148,7 +153,18 @@ installed automatically:
 
 ```bash
 uv sync
+```
 
+The guided walkthrough, which reproduces everything below from the committed
+data in about three minutes and needs no internet connection:
+
+```bash
+uv run jupyter lab notebooks/egfr_analysis.ipynb
+```
+
+Or run the pipeline from the command line:
+
+```bash
 uv run python scripts/download_egfr_ic50.py   # fetch IC50 data from ChEMBL (~8 min)
 uv run python scripts/clean_and_label.py      # clean, merge replicates, label
 uv run python scripts/make_fingerprints.py    # Morgan fingerprints + example figure
