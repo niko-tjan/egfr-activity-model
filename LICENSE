@@ -19,12 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-NOTE: This MIT licence covers the source code in this repository (the files in
-scripts/ and the documentation).
-
-It does NOT cover the data files in data/, which are derived from the ChEMBL
-database and are redistributed under the Creative Commons Attribution-ShareAlike
-3.0 Unported licence (CC BY-SA 3.0). See data/LICENSE for details.
